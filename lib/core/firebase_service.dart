@@ -5,3 +5,4 @@ class FirebaseService {
     await Firebase.initializeApp();
   }
 }
+
