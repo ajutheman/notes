@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-// import '../../../logic/blocs/auth_bloc/auth_bloc.dart';
-// import '../../../logic/blocs/auth_bloc/auth_event.dart';
-// import '../../../logic/blocs/auth_bloc/auth_state.dart';
 import '../../widgets/custom_button.dart';
 import '../../widgets/custom_textfield.dart';
 import '../../widgets/loading_indicator.dart';
@@ -11,7 +8,6 @@ import '../logic/blocs/auth_bloc.dart';
 import '../logic/blocs/auth_event.dart';
 import '../logic/blocs/auth_state.dart';
 import 'home/notes_list_screen.dart';
-// import '../home/notes_list_screen.dart';
 
 class RegisterScreen extends StatelessWidget {
   final emailController = TextEditingController();
